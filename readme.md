@@ -7,7 +7,7 @@ This project implements a full-stack inventory management system, providing a we
 *   **Intuitive User Interface:** Built with React and Vite for a fast and responsive user experience.
 *   **Smooth Animations:** Enhances user interaction with Framer Motion powered animations.
 *   **Clear Visuals:** Utilizes Lucide React icons for visually appealing and recognizable elements.
-*   **Robust Backend:** Handles inventory data with a Python Flask backend and interacts with a database (e.g., SQLite, PostgreSQL, MySQL).
+*   **Robust Backend:** Handles inventory data with a Python Flask backend and interacts with a local stored file.
 *   **Efficient Data Handling:** Uses Axios for seamless HTTP communication between the frontend and backend API.
 *   **Secure Operations:** Includes features like adding, editing, and deleting inventory items, along with secure handling of data.
 
