@@ -38,98 +38,38 @@ This project implements a full-stack inventory management system, providing a we
 
 ### Frontend setup
 
-1.  **Navigate to the project directory:**
+1.  **Navigate into the frontend directory:**
     ```bash
-    cd project/
+    cd client
     ```
 
-2.  **Create a new Vite React project:**
-    ```bash
-    npm create vite@latest frontend --template react
-    ```
-
-3.  **Navigate into the frontend directory:**
-    ```bash
-    cd frontend
-    ```
-
-4.  **Install dependencies:**
+2.  **Install dependencies:**
     ```bash
     npm install
     ```
 
-5.  **Install Axios:**
+3. **Run Frontend**
     ```bash
-    npm install axios
+    npm run preview
     ```
-
-6.  **Install Framer Motion:**
-    ```bash
-    npm install framer-motion
-    ```
-
-7.  **Install Lucide React:**
-    ```bash
-    npm install lucide-react
-    ```
-
 ### Backend setup
 
-1.  **Create a backend directory:**
+1.  **Navigate into the frontend directory:**
     ```bash
-    mkdir backend && cd backend
+    cd server
     ```
 
-2.  **Create a Python virtual environment:**
-    *   **macOS/Linux:**
-        ```bash
-        python3 -m venv venv && source venv/bin/activate
-        ```
-    *   **Windows:**
-        ```bash
-        py -3 -m venv venv && .venv\Scripts\activate
-        ```
-
-3.  **Install Flask and Flask-CORS:**
+2.  **Install dependencies:**
     ```bash
-    pip install Flask Flask-CORS
+    pip install pandas flask flask_cors datetime
     ```
 
-4.  **Create your Flask application file (e.g., `app.py`)**.
-    *   **Note:** You'll define your API endpoints and routes within this file.
-
+3. **Run Frontend**
+    ```bash
+    py main.py
+    ```
 ## Development
 
-### Running the frontend
-
-1.  **Start the frontend development server:**
-    ```bash
-    npm run dev
-    ```
-2.  Open your browser to `http://localhost:5173/`.
-
-### Running the backend
-
-1.  **Navigate into your backend directory:**
-    ```bash
-    cd backend
-    ```
-
-2.  **Activate your virtual environment (if you haven't already):**
-    *   **macOS/Linux:**
-        ```bash
-        source venv/bin/activate
-        ```
-    *   **Windows:**
-        ```bash
-        .venv\Scripts\activate
-        ```
-
-3.  **Run the Flask application:**
-    ```bash
-    flask run
-    ```
-4.  Open your browser to `http://localhost:5000/` (or the URL your Flask app outputs).
 
 ## Deployment
 
@@ -139,6 +79,4 @@ This project implements a full-stack inventory management system, providing a we
     ```
 2.  **Deploy your Flask backend to your chosen hosting platform (e.g., Heroku, AWS, DigitalOcean).**
     *   **Note:** The `dist` folder created by `npm run build` contains the optimized production frontend files to be served by your backend or a static file server.
-3.  **Configure environment variables for the backend (e.g., database connection strings, API keys).**
-4.  **Ensure your frontend is configured to communicate with the deployed backend API.**
-
+3.  **Ensure your frontend is configured to communicate with the deployed backend API.**
