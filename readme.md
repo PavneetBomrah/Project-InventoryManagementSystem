@@ -22,10 +22,6 @@ This project implements a full-stack inventory management system, providing a we
     *   Axios
 *   **Backend:**
     *   Python Flask
-*   **Database:** (Choose one based on your preference and project needs)
-    *   SQLite (for local development)
-    *   PostgreSQL
-    *   MySQL
 
 ## Setup and Installation
 
